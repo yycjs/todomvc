@@ -1,0 +1,27 @@
+{
+  "name": "todomvc-realtime",
+  "description": "Real time TodoMVC",
+  "version": "0.0.1",
+  "author": {
+    "name": "YYCjs",
+    "email": ""
+  },
+  "homepage": "http://yycjs.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yycjs/todomvc.git"
+  },
+  "engines": {
+    "node": ">0.10.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.x"
+  },
+  "scripts": {
+    "start": "node lib/app.js"
+  },
+  "dependencies": {
+    "express": "~3.2.0",
+    "socket.io": "~0.9.14"
+  }
+}
